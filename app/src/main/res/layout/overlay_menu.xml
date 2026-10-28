@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayRoot"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:background="#E6161622"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="AimProxy" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="14sp" />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" android:text="Aim (usa chat in-game)"
+        android:textColor="#9B9BB0" android:textSize="11sp" />
+
+    <Button android:id="@+id/btnSoft" android:layout_width="match_parent" android:layout_height="36dp"
+        android:layout_marginTop="6dp" android:text=".aim soft" android:textSize="12sp" />
+    <Button android:id="@+id/btnSnap" android:layout_width="match_parent" android:layout_height="36dp"
+        android:layout_marginTop="4dp" android:text=".aim snap" android:textSize="12sp" />
+    <Button android:id="@+id/btnOff" android:layout_width="match_parent" android:layout_height="36dp"
+        android:layout_marginTop="4dp" android:text=".aim off" android:textSize="12sp" />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:text="Friends"
+        android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="12sp" />
+    <TextView android:id="@+id/overlayFriends" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textColor="#9B9BB0" android:textSize="11sp"
+        android:text="(vacío)" />
+
+    <Button android:id="@+id/btnClose" android:layout_width="match_parent" android:layout_height="36dp"
+        android:layout_marginTop="8dp" android:text="Cerrar menú" android:textSize="12sp" />
+</LinearLayout>
